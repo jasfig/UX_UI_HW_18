@@ -58,3 +58,19 @@ h1 {
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color:white;
 }
+
+h6 {
+    position: absolute;
+    width: 147px;
+    height: 28px;
+    left: 77px;
+    top: 396px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 28 px;
+    letter-spacing: -0.025em;
+    color: #F4F4F4;
+    transform: rotate(-90deg);
+}
