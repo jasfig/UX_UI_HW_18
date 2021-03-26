@@ -1,5 +1,7 @@
 
-
+body {
+    background-color: black;
+}
 .container-grid {
     display: grid;
     padding: 10px;   
@@ -20,6 +22,7 @@
     justify-content: center;
 }
 .footer {
+
     display: grid;
     text-align: left;
     color: white;
@@ -33,16 +36,25 @@
     justify-content: flex-end;
 }
 
+
 .flexContainer {
     font-family: 'Roboto', sans-serif ;
     color: white;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    width: 33%;
-    margin: 10px;
-    padding: 10px;
 }
 
-h4 {
-    
+.mySkills {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+.workGrid {
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color:white;
+}
